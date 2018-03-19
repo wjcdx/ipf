@@ -1,0 +1,175 @@
+~ # conntrack -L
+tcp      6 485 ESTABLISHED src=192.168.1.6 dst=111.221.29.253 sport=58903 dport=443 src=111.221.29.253 dst=100.74.243.128 sport=443 dport=58903 [ASSURED] mark=0 use=1
+tcp      6 558 ESTABLISHED src=192.168.1.5 dst=42.62.94.2 sport=47152 dport=443 src=42.62.94.2 dst=100.74.243.128 sport=443 dport=47152 [ASSURED] mark=0 use=1
+tcp      6 7 CLOSE src=192.168.1.3 dst=183.207.95.151 sport=50493 dport=443 src=183.207.95.151 dst=100.74.243.128 sport=443 dport=50493 [ASSURED] mark=0 use=1
+tcp      6 1 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50515 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50515 [ASSURED] mark=0 use=1
+tcp      6 118 SYN_SENT src=192.168.1.6 dst=74.125.204.102 sport=58929 dport=443 [UNREPLIED] src=74.125.204.102 dst=100.74.243.128 sport=443 dport=58929 mark=0 use=1
+tcp      6 45 ESTABLISHED src=192.168.1.6 dst=23.219.133.96 sport=58653 dport=443 src=23.219.133.96 dst=100.74.243.128 sport=443 dport=58653 [ASSURED] mark=0 use=1
+tcp      6 175 ESTABLISHED src=192.168.1.2 dst=121.51.130.102 sport=44492 dport=443 src=121.51.130.102 dst=100.74.243.128 sport=443 dport=44492 [ASSURED] mark=0 use=1
+tcp      6 84 SYN_SENT src=192.168.1.6 dst=74.125.204.100 sport=58922 dport=443 [UNREPLIED] src=74.125.204.100 dst=100.74.243.128 sport=443 dport=58922 mark=0 use=1
+tcp      6 13 SYN_SENT src=192.168.1.6 dst=74.125.204.101 sport=58912 dport=443 [UNREPLIED] src=74.125.204.101 dst=100.74.243.128 sport=443 dport=58912 mark=0 use=1
+udp      17 0 src=100.74.243.128 dst=112.4.0.55 sport=4605 dport=53 src=112.4.0.55 dst=100.74.243.128 sport=53 dport=4605 mark=0 use=1
+tcp      6 20 LAST_ACK src=192.168.1.3 dst=17.167.194.224 sport=50455 dport=443 src=17.167.194.224 dst=100.74.243.128 sport=443 dport=50455 [ASSURED] mark=0 use=1
+udp      17 5 src=192.168.1.3 dst=192.168.1.1 sport=55388 dport=53 src=192.168.1.1 dst=192.168.1.3 sport=53 dport=55388 mark=0 use=1
+tcp      6 12 SYN_SENT src=192.168.1.6 dst=74.125.204.101 sport=58911 dport=443 [UNREPLIED] src=74.125.204.101 dst=100.74.243.128 sport=443 dport=58911 mark=0 use=1
+tcp      6 1 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50518 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50518 [ASSURED] mark=0 use=1
+tcp      6 5 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50523 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50523 [ASSURED] mark=0 use=1
+tcp      6 538 ESTABLISHED src=192.168.1.7 dst=140.205.195.37 sport=51962 dport=80 src=140.205.195.37 dst=100.74.243.128 sport=80 dport=51962 [ASSURED] mark=0 use=1
+udp      17 5 src=100.74.243.128 dst=112.4.0.55 sport=54942 dport=53 src=112.4.0.55 dst=100.74.243.128 sport=53 dport=54942 mark=0 use=1
+tcp      6 6 CLOSE src=192.168.1.3 dst=183.207.95.152 sport=50524 dport=443 src=183.207.95.152 dst=100.74.243.128 sport=443 dport=50524 [ASSURED] mark=0 use=1
+tcp      6 6 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50525 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50525 [ASSURED] mark=0 use=1
+tcp      6 0 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50513 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50513 [ASSURED] mark=0 use=2
+tcp      6 299 ESTABLISHED src=192.168.1.6 dst=192.168.1.1 sport=58927 dport=23 src=192.168.1.1 dst=192.168.1.6 sport=23 dport=58927 [ASSURED] mark=0 use=1
+tcp      6 134 ESTABLISHED src=192.168.1.6 dst=58.210.98.242 sport=58843 dport=143 src=58.210.98.242 dst=100.74.243.128 sport=143 dport=58843 [ASSURED] mark=0 use=1
+tcp      6 564 ESTABLISHED src=192.168.1.5 dst=112.17.10.185 sport=42871 dport=9528 src=112.17.10.185 dst=100.74.243.128 sport=9528 dport=42871 [ASSURED] mark=0 use=1
+tcp      6 1 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50517 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50517 [ASSURED] mark=0 use=1
+tcp      6 73 FIN_WAIT src=192.168.1.7 dst=183.192.192.151 sport=51278 dport=80 src=183.192.192.151 dst=100.74.243.128 sport=80 dport=51278 [ASSURED] mark=0 use=1
+udp      17 25 src=100.74.243.128 dst=221.131.143.69 sport=51330 dport=53 src=221.131.143.69 dst=100.74.243.128 sport=53 dport=51330 mark=0 use=1
+udp      17 0 src=192.168.1.3 dst=192.168.1.1 sport=54307 dport=53 src=192.168.1.1 dst=192.168.1.3 sport=53 dport=54307 mark=0 use=1
+tcp      6 9 CLOSE src=192.168.1.3 dst=112.29.146.153 sport=50210 dport=443 src=112.29.146.153 dst=100.74.243.128 sport=443 dport=50210 [ASSURED] mark=0 use=1
+tcp      6 23 LAST_ACK src=192.168.1.7 dst=106.11.172.12 sport=34125 dport=443 src=106.11.172.12 dst=100.74.243.128 sport=443 dport=34125 [ASSURED] mark=0 use=1
+tcp      6 495 ESTABLISHED src=192.168.1.2 dst=183.84.5.202 sport=42762 dport=5222 src=183.84.5.202 dst=100.74.243.128 sport=5222 dport=42762 [ASSURED] mark=0 use=1
+tcp      6 564 ESTABLISHED src=192.168.1.5 dst=112.17.251.147 sport=60530 dport=8887 src=112.17.251.147 dst=100.74.243.128 sport=8887 dport=60530 [ASSURED] mark=0 use=1
+unknown  2 202 src=192.168.1.6 dst=224.0.0.22 [UNREPLIED] src=224.0.0.22 dst=192.168.1.6 mark=0 use=1
+tcp      6 117 SYN_SENT src=192.168.1.6 dst=74.125.204.101 sport=58930 dport=443 [UNREPLIED] src=74.125.204.101 dst=100.74.243.128 sport=443 dport=58930 mark=0 use=1
+udp      17 29 src=100.74.243.128 dst=112.4.0.55 sport=8841 dport=53 src=112.4.0.55 dst=100.74.243.128 sport=53 dport=8841 mark=0 use=1
+tcp      6 97 SYN_SENT src=192.168.1.6 dst=74.125.204.138 sport=58924 dport=443 [UNREPLIED] src=74.125.204.138 dst=100.74.243.128 sport=443 dport=58924 mark=0 use=1
+tcp      6 0 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50511 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50511 [ASSURED] mark=0 use=1
+tcp      6 570 ESTABLISHED src=192.168.1.6 dst=52.230.3.194 sport=58068 dport=443 src=52.230.3.194 dst=100.74.243.128 sport=443 dport=58068 [ASSURED] mark=0 use=1
+tcp      6 5 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50521 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50521 [ASSURED] mark=0 use=1
+tcp      6 56 SYN_SENT src=192.168.1.3 dst=183.207.95.151 sport=50415 dport=443 [UNREPLIED] src=183.207.95.151 dst=100.74.243.128 sport=443 dport=50415 mark=0 use=2
+tcp      6 9 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50520 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50520 [ASSURED] mark=0 use=1
+tcp      6 63 SYN_SENT src=192.168.1.6 dst=74.125.204.139 sport=58917 dport=443 [UNREPLIED] src=74.125.204.139 dst=100.74.243.128 sport=443 dport=58917 mark=0 use=1
+tcp      6 537 ESTABLISHED src=192.168.1.7 dst=111.13.142.24 sport=37805 dport=80 src=111.13.142.24 dst=100.74.243.128 sport=80 dport=37805 [ASSURED] mark=0 use=1
+tcp      6 595 ESTABLISHED src=192.168.1.7 dst=120.204.10.46 sport=55317 dport=8080 src=120.204.10.46 dst=100.74.243.128 sport=8080 dport=55317 [ASSURED] mark=0 use=1
+tcp      6 34 SYN_SENT src=192.168.1.6 dst=74.125.204.100 sport=58914 dport=443 [UNREPLIED] src=74.125.204.100 dst=100.74.243.128 sport=443 dport=58914 mark=0 use=1
+tcp      6 116 FIN_WAIT src=192.168.1.7 dst=111.13.141.5 sport=52446 dport=80 src=111.13.141.5 dst=100.74.243.128 sport=80 dport=52446 [ASSURED] mark=0 use=1
+tcp      6 16 LAST_ACK src=192.168.1.3 dst=183.207.95.149 sport=50480 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50480 [ASSURED] mark=0 use=1
+tcp      6 72 FIN_WAIT src=192.168.1.7 dst=183.192.192.151 sport=51274 dport=80 src=183.192.192.151 dst=100.74.243.128 sport=80 dport=51274 [ASSURED] mark=0 use=1
+tcp      6 7 CLOSE src=192.168.1.3 dst=183.207.95.151 sport=50495 dport=443 src=183.207.95.151 dst=100.74.243.128 sport=443 dport=50495 [ASSURED] mark=0 use=1
+tcp      6 595 ESTABLISHED src=192.168.1.7 dst=140.207.127.57 sport=33722 dport=443 src=140.207.127.57 dst=100.74.243.128 sport=443 dport=33722 [ASSURED] mark=0 use=1
+tcp      6 54 SYN_SENT src=192.168.1.6 dst=74.125.204.113 sport=58915 dport=443 [UNREPLIED] src=74.125.204.113 dst=100.74.243.128 sport=443 dport=58915 mark=0 use=1
+tcp      6 554 ESTABLISHED src=192.168.1.2 dst=120.198.201.160 sport=37937 dport=8080 src=120.198.201.160 dst=100.74.243.128 sport=8080 dport=37937 [ASSURED] mark=0 use=1
+tcp      6 73 FIN_WAIT src=192.168.1.7 dst=183.192.192.151 sport=51277 dport=80 src=183.192.192.151 dst=100.74.243.128 sport=80 dport=51277 [ASSURED] mark=0 use=1
+tcp      6 0 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50512 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50512 [ASSURED] mark=0 use=1
+tcp      6 16 LAST_ACK src=192.168.1.3 dst=183.207.95.149 sport=50478 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50478 [ASSURED] mark=0 use=1
+tcp      6 595 ESTABLISHED src=192.168.1.7 dst=42.62.94.2 sport=51232 dport=443 src=42.62.94.2 dst=100.74.243.128 sport=443 dport=51232 [ASSURED] mark=0 use=1
+tcp      6 585 ESTABLISHED src=192.168.1.3 dst=17.132.22.77 sport=49860 dport=443 src=17.132.22.77 dst=100.74.243.128 sport=443 dport=49860 [ASSURED] mark=0 use=1
+tcp      6 506 ESTABLISHED src=192.168.1.5 dst=120.204.10.107 sport=55707 dport=80 src=120.204.10.107 dst=100.74.243.128 sport=80 dport=55707 [ASSURED] mark=0 use=2
+tcp      6 6 CLOSE src=192.168.1.3 dst=183.207.95.152 sport=50526 dport=443 src=183.207.95.152 dst=100.74.243.128 sport=443 dport=50526 [ASSURED] mark=0 use=1
+tcp      6 6 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50528 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50528 [ASSURED] mark=0 use=1
+tcp      6 117 SYN_SENT src=192.168.1.6 dst=74.125.204.102 sport=58928 dport=443 [UNREPLIED] src=74.125.204.102 dst=100.74.243.128 sport=443 dport=58928 mark=0 use=1
+tcp      6 96 SYN_SENT src=192.168.1.6 dst=74.125.204.138 sport=58923 dport=443 [UNREPLIED] src=74.125.204.138 dst=100.74.243.128 sport=443 dport=58923 mark=0 use=1
+tcp      6 6 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50527 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50527 [ASSURED] mark=0 use=1
+tcp      6 100 FIN_WAIT src=192.168.1.3 dst=120.221.12.2 sport=50475 dport=80 src=120.221.12.2 dst=100.74.243.128 sport=80 dport=50475 [ASSURED] mark=0 use=1
+tcp      6 105 SYN_SENT src=192.168.1.6 dst=74.125.204.138 sport=58926 dport=443 [UNREPLIED] src=74.125.204.138 dst=100.74.243.128 sport=443 dport=58926 mark=0 use=1
+tcp      6 104 SYN_SENT src=192.168.1.6 dst=74.125.204.138 sport=58925 dport=443 [UNREPLIED] src=74.125.204.138 dst=100.74.243.128 sport=443 dport=58925 mark=0 use=1
+tcp      6 33 SYN_SENT src=192.168.1.6 dst=74.125.204.100 sport=58913 dport=443 [UNREPLIED] src=74.125.204.100 dst=100.74.243.128 sport=443 dport=58913 mark=0 use=1
+tcp      6 83 SYN_SENT src=192.168.1.6 dst=74.125.204.100 sport=58921 dport=443 [UNREPLIED] src=74.125.204.100 dst=100.74.243.128 sport=443 dport=58921 mark=0 use=1
+tcp      6 7 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50505 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50505 [ASSURED] mark=0 use=1
+tcp      6 45 ESTABLISHED src=192.168.1.6 dst=23.219.133.96 sport=58655 dport=443 src=23.219.133.96 dst=100.74.243.128 sport=443 dport=58655 [ASSURED] mark=0 use=1
+tcp      6 117 SYN_SENT src=192.168.1.6 dst=74.125.204.101 sport=58931 dport=443 [UNREPLIED] src=74.125.204.101 dst=100.74.243.128 sport=443 dport=58931 mark=0 use=1
+tcp      6 8 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50519 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50519 [ASSURED] mark=0 use=1
+tcp      6 585 ESTABLISHED src=192.168.1.5 dst=117.144.242.102 sport=33822 dport=8080 src=117.144.242.102 dst=100.74.243.128 sport=8080 dport=33822 [ASSURED] mark=0 use=1
+tcp      6 0 LAST_ACK src=192.168.1.3 dst=120.221.12.2 sport=50476 dport=80 src=120.221.12.2 dst=100.74.243.128 sport=80 dport=50476 [ASSURED] mark=0 use=1
+tcp      6 595 ESTABLISHED src=192.168.1.7 dst=42.62.94.234 sport=58983 dport=80 src=42.62.94.234 dst=100.74.243.128 sport=80 dport=58983 [ASSURED] mark=0 use=1
+tcp      6 5 CLOSE src=192.168.1.3 dst=183.207.95.152 sport=50522 dport=443 src=183.207.95.152 dst=100.74.243.128 sport=443 dport=50522 [ASSURED] mark=0 use=2
+udp      17 25 src=192.168.1.3 dst=192.168.1.1 sport=55561 dport=53 src=192.168.1.1 dst=192.168.1.3 sport=53 dport=55561 mark=0 use=1
+udp      17 0 src=192.168.1.3 dst=192.168.1.1 sport=60377 dport=53 src=192.168.1.1 dst=192.168.1.3 sport=53 dport=60377 mark=0 use=1
+udp      17 0 src=100.74.243.128 dst=112.4.0.55 sport=25962 dport=53 src=112.4.0.55 dst=100.74.243.128 sport=53 dport=25962 mark=0 use=1
+tcp      6 1 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50516 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50516 [ASSURED] mark=0 use=1
+tcp      6 63 SYN_SENT src=192.168.1.6 dst=74.125.204.139 sport=58918 dport=443 [UNREPLIED] src=74.125.204.139 dst=100.74.243.128 sport=443 dport=58918 mark=0 use=1
+tcp      6 526 ESTABLISHED src=192.168.1.3 dst=17.252.156.206 sport=49969 dport=443 src=17.252.156.206 dst=100.74.243.128 sport=443 dport=49969 [ASSURED] mark=0 use=1
+tcp      6 1 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50491 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50491 [ASSURED] mark=0 use=1
+tcp      6 11 LAST_ACK src=192.168.1.3 dst=183.207.95.147 sport=50469 dport=443 src=183.207.95.147 dst=100.74.243.128 sport=443 dport=50469 [ASSURED] mark=0 use=1
+tcp      6 0 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50514 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50514 [ASSURED] mark=0 use=1
+tcp      6 73 FIN_WAIT src=192.168.1.7 dst=117.185.117.191 sport=52118 dport=80 src=117.185.117.191 dst=100.74.243.128 sport=80 dport=52118 [ASSURED] mark=0 use=1
+tcp      6 69 SYN_SENT src=192.168.1.7 dst=64.233.188.188 sport=43758 dport=5228 [UNREPLIED] src=64.233.188.188 dst=100.74.243.128 sport=5228 dport=43758 mark=0 use=1
+tcp      6 77 FIN_WAIT src=192.168.1.7 dst=183.192.192.151 sport=51282 dport=80 src=183.192.192.151 dst=100.74.243.128 sport=80 dport=51282 [ASSURED] mark=0 use=1
+tcp      6 8 CLOSE src=192.168.1.3 dst=183.207.95.149 sport=50503 dport=443 src=183.207.95.149 dst=100.74.243.128 sport=443 dport=50503 [ASSURED] mark=0 use=1
+tcp      6 76 SYN_SENT src=192.168.1.6 dst=74.125.204.139 sport=58920 dport=443 [UNREPLIED] src=74.125.204.139 dst=100.74.243.128 sport=443 dport=58920 mark=0 use=1
+tcp      6 75 SYN_SENT src=192.168.1.6 dst=74.125.204.139 sport=58919 dport=443 [UNREPLIED] src=74.125.204.139 dst=100.74.243.128 sport=443 dport=58919 mark=0 use=1
+udp      17 29 src=192.168.1.3 dst=192.168.1.1 sport=63568 dport=53 src=192.168.1.1 dst=192.168.1.3 sport=53 dport=63568 mark=0 use=1
+tcp      6 0 LAST_ACK src=192.168.1.3 dst=112.25.79.6 sport=50377 dport=80 src=112.25.79.6 dst=100.74.243.128 sport=80 dport=50377 [ASSURED] mark=0 use=1
+tcp      6 55 SYN_SENT src=192.168.1.6 dst=74.125.204.113 sport=58916 dport=443 [UNREPLIED] src=74.125.204.113 dst=100.74.243.128 sport=443 dport=58916 mark=0 use=1
+tcp      6 599 ESTABLISHED src=192.168.1.3 dst=112.17.1.74 sport=50529 dport=443 src=112.17.1.74 dst=100.74.243.128 sport=443 dport=50529 [ASSURED] mark=0 use=2
+udp      17 25 src=100.74.243.128 dst=112.4.0.55 sport=51330 dport=53 src=112.4.0.55 dst=100.74.243.128 sport=53 dport=51330 mark=0 use=1
+conntrack v1.0.0 (conntrack-tools): 95 flow entries have been shown.
+
+~ #
+~ #
+~ # ifconfig
+br0       Link encap:Ethernet  HWaddr C8:3A:35:00:00:01  
+          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::1/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:35672 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:20498 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:4960621 (4.7 MiB)  TX bytes:1893217 (1.8 MiB)
+
+br1       Link encap:Ethernet  HWaddr FA:FE:2D:D9:20:9B  
+          inet addr:192.168.253.1  Bcast:192.168.253.255  Mask:255.255.255.0
+          inet6 addr: fe80::f8fe:2dff:fed9:209b/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:8 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:828 (828.0 B)
+
+eth0      Link encap:Ethernet  HWaddr 00:E0:FC:55:55:55  
+          inet6 addr: fe80::2e0:fcff:fe55:5555/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:241438 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:153419 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:268054261 (255.6 MiB)  TX bytes:23854918 (22.7 MiB)
+          Interrupt:120 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:324 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:324 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:27024 (26.3 KiB)  TX bytes:27024 (26.3 KiB)
+
+nas1      Link encap:Ethernet  HWaddr 00:E0:FC:55:55:5A  
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:205684 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:262250275 (250.1 MiB)  TX bytes:0 (0.0 B)
+
+ppp0      Link encap:Point-to-Point Protocol  
+          inet addr:100.74.243.128  P-t-P:100.74.192.1  Mask:255.255.255.255
+          UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:1492  Metric:1
+          RX packets:14801 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:31462 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3 
+          RX bytes:938994 (916.9 KiB)  TX bytes:4675341 (4.4 MiB)
+
+ppp_2_1_1 Link encap:Ethernet  HWaddr C8:3A:35:00:00:04  
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:205684 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:34979 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:262250275 (250.1 MiB)  TX bytes:5473048 (5.2 MiB)
+
+wlan0     Link encap:Ethernet  HWaddr C8:3A:35:00:00:02  
+          inet6 addr: fe80::ca3a:35ff:fe00:2/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:4189 errors:0 dropped:808 overruns:0 frame:0
+          TX packets:10172 errors:0 dropped:5930 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:752061 (734.4 KiB)  TX bytes:2684566 (2.5 MiB)
+
+wlan1     Link encap:Ethernet  HWaddr C8:3A:35:00:00:03  
+          inet6 addr: fe80::ca3a:35ff:fe00:3/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:114232 errors:0 dropped:15420 overruns:0 frame:0
+          TX packets:205481 errors:0 dropped:180 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:15188257 (14.4 MiB)  TX bytes:258615845 (246.6 MiB)
+

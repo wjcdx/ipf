@@ -1,0 +1,15 @@
+# TODOs:
+1. Establishing a TCP server on public ip address to avoid TCP RST to client,
+   but contents should be dropped. Because it's already relayed via raw socket.
+   A: Deprecated.
+      Just use iptables to close the TCP port, which means DROP packets to the TCP port.
+	  $ iptables -A INPUT -d 192.168.1.1 -p tcp --dport 80 -j DROP
+
+2. Establishing a TCP client on camera ip address immediately after a TCP SYN
+   is received from a client, because TCP SYN is not relayed. And the TCP
+   source port should be recorded for packets NAT later.
+   A: Deprecated.
+      We maybe have to adjust all tcp header fields, it's too complicated.
+
+3. For TCP stream, when a packet need downstream forward, we should learn src ip & mac.
+
